@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    text-align: center;
+}
+table {
+    border: solid 1px black;
+}
+table thead th {
+    background-color: black;
+    color: beige;
+}
+table tbody tr:nth-child(even){
+    background-color: #e9e9e9;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+form input:focus, form textarea:focus{
+    background-color: #e9e9e9;
+}
+button{
+    background-color: #13678A;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+}
+form label {
+    margin-left: 10px;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #DAFDBA;
+    padding: 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.header {
+    background-color: #13678A;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: justify;
+}
+.footer {
+    background-color: #13678A;
+    min-height: 50px;
+    padding: 50px 5px 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.textoroda{
+    color: beige;
+}
